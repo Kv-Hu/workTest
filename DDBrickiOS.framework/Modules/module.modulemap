@@ -1,0 +1,6 @@
+framework module DDBrickiOS {
+  umbrella header "DDBrickiOS.h"
+
+  export *
+  module * { export * }
+}

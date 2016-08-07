@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <DDBrickiOS/DDBaseTableViewController.h>
 
-@interface ViewController : UIViewController
+@interface ViewController :DDBaseTableViewController
 
 
 @end

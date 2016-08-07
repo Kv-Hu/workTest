@@ -6,9 +6,10 @@
 //  Copyright © 2016年 Kevin. All rights reserved.
 //
 
+
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface DDBaseTableViewController ()
 
 @end
 
