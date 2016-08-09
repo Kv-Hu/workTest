@@ -10,7 +10,5 @@
 #import <DDBrickiOS/DDBaseTableViewController.h>
 
 @interface ViewController :DDBaseTableViewController
-
-
 @end
 
