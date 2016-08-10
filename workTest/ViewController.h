@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <DDBrickiOS/DDBaseTableViewController.h>
 
-@interface ViewController :DDBaseTableViewController
+@interface ViewController :UIViewController
 @end
 
