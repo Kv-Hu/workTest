@@ -1,5 +1,34 @@
 #iOS笔记
 
+## iOS技能树
+
+### 基本通用技能
+1. Linux相关(1d)。具体为在zsh/oh-my-zsh环境下熟练使用基本的linux命令: cd ls mkdir cp mv
+2. Git（1d）。熟练使用以下命令：status add commit pull push log diff
+3. Vim（1d）。熟练使用以下指令：h j k l a i o p x d w b f g
+4. Markdown（0.5d)。
+
+### OC基础
+1. 内存管理：ARC
+2. Thread/Runloop
+3. Runtime
+
+### 设计模式
+1. MVC
+2. MVVM
+3. Protocol
+4. KVO
+5. Notification
+6. Block
+7. Category
+8. 单例
+
+### iOS基础
+1. Autolayout: Masonry
+2. Draw UI with Code
+3. TableView
+4. CollectionView
+
 ## 设计模式：**MVC**模式复习
 **MVC**根据角色划分类，涉及到三个角色：
 
