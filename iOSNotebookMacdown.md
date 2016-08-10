@@ -250,9 +250,50 @@ DDImageAndTagCell.h
 @end
 ```
 
+## 2016/8/09 上午
+学习MVVM设计思想。参考文献：
+
+<https://www.objccn.io/issue-13-1/>
+<http://www.cocoachina.com/ios/20150525/11930.html>
 
 
+## 2016/8/09 下午
+父子控制器实例。编写程序，并运行。
 
+## 2016/8/09 晚上
+git的使用学习
 
+git的作用：
+
+<https://www.git-tower.com/learn/git/ebook/cn/command-line/basics/why-use-version-control>
+
+<http://www.ui.cn/detail/20957.html>
+
+**git log**
+
+git log主要用来显示分支中提交更改的记录。当执行git commit以存储一个快照的时候，文件详单、提交消息和提交者的信息、此次提交所基于的快照都会被保存。
+
+**git status**
+
+git status，查看你的代码在缓存与当前工作目录的状态
+git status -s，将结果以简短的形式输出
+
+**git add**
+
+**git add**，在提交你修改的文件之前，你需要把它们添加到暂存区。如果该文件是新创建的，你可以执行将该文件添加到暂存区
+**git add .** ，Git会递归地将你执行命令时所在的目录中的所有文件添加上去，所以如果你将当前的工作目录作为参数，它就会追踪那儿的所有文件
+**git add -u**，使用-u参数调用了git add命令，会将本地有改动（包括删除和修改）的已经追踪的文件标记到暂存区中。
+**git add -A**，使用-A参数会将添加所有改动的已跟踪文件和未跟踪文件。
+**git add -i**，交互式的方式进行添加。
+
+**git commit*
+
+**git commit --amend**，修补式提交。
+
+**git commit --a**，对本地所有变更的文件执行提交操作，包括对本地修改的文件和删除的文件，但是不包括未被版本库跟踪的文件。但是这个命令最好不要使用，这样会丢掉Git暂存区带给用户的最大好处：对提交内容进行控制的能力
+
+**git push**
+
+**git push** <remote> [branch]，就会将你的 [branch] 分支推送成为 [alias] 远端上的 [branch] 分支，要推送的远程版本号的URL地址由remote.<remote>.pushurl给出，如果没有配置，则使用remote.<remote>.url配置的URL地址。
 
 
