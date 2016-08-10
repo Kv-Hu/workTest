@@ -3,6 +3,7 @@
 ## iOS技能树
 
 ### 基本通用技能
+0. 指法练习。要求字母键的指法正确，能够盲打数字键、熟练打字符键。
 1. Linux相关(1d)。具体为在zsh/oh-my-zsh环境下熟练使用基本的linux命令: cd ls mkdir cp mv
 2. Git（1d）。熟练使用以下命令：status add commit pull push log diff
 3. Vim（1d）。熟练使用以下指令：h j k l a i o p x d w b f g
